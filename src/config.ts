@@ -35,7 +35,7 @@ export function loadConfig(): Config {
       serverPort: parseInt(process.env.TS3_SERVER_PORT || "9987"),
       username: process.env.TS3_USERNAME || "serveradmin",
       password: process.env.TS3_PASSWORD || "",
-      nickname: process.env.TS3_NICKNAME || "TimeBot",
+      nickname: process.env.TS3_NICKNAME || "shadi_bot",
     },
     tracking: fileConfig.tracking,
     roles: fileConfig.roles,

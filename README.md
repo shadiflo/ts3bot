@@ -1,4 +1,4 @@
-# TS3 Time Bot
+# TS3 Shadi Bot
 
 A TeamSpeak 3 bot that tracks cumulative user time on the server and auto-assigns server groups based on configurable thresholds.
 
@@ -41,7 +41,7 @@ TS3_QUERY_PORT=10011                    # ServerQuery port (default: 10011)
 TS3_SERVER_PORT=9987                    # TS3 voice port (default: 9987)
 TS3_USERNAME=serveradmin                # ServerQuery username
 TS3_PASSWORD=your_password              # ServerQuery password
-TS3_NICKNAME=TimeBot                    # Bot's display name in TS3
+TS3_NICKNAME=shadi_bot                    # Bot's display name in TS3
 ```
 
 ### 3. Configure roles
