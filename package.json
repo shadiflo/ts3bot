@@ -1,0 +1,20 @@
+{
+  "name": "ts3bot",
+  "version": "1.0.0",
+  "description": "TeamSpeak 3 bot for auto role assignment based on cumulative time",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "dotenv": "^17.3.1",
+    "ts3-nodejs-library": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tracking": {
+    "pollIntervalSeconds": 60
+  },
+  "roles": [
+    { "serverGroupId": 0, "name": "Regular", "requiredMinutes": 120 }
+  ]
+}
